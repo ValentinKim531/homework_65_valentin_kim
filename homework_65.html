@@ -24,64 +24,6 @@ for (key in myArray) {
 </script>
 
 
-<script type="application/javascript">
-
-myArray1 = [1, 5, 12, 4, 3]
-myArray2 = [2, 3, 4, 5, 6, 7, 8, 9, 10]
-myArray3 = [3, 10, 17]
-
-function avg(x) {
-    let sum  = x.reduce((total, value) => total + value, 0)
-    let avg = sum/x.length
-    return console.log(`${avg}`);
-}
-
-avg(myArray1);
-avg(myArray2);
-avg(myArray3);
-
-</script>
-
-
-<script type="application/javascript">
-
-let myFunc = function() {
-    let value = prompt("У квадратного стола отпилили один угол. Сколько теперь углов у него стало?");
-    if (value === '5') {
-        alert('Ответ верный');
-    }
-    else if (value === 'пять' || value === 'Пять') {
-        alert('Ответ верный');
-    }
-    else {
-        alert('Ответ неверный');
-    }
-};
-
-myFunc();
-
-</script>
-
-
-<script type="application/javascript">
-
-let Duck = {
-    name: 'Дональд',
-    color: 'белый',
-    age: 1,
-    toStr: function() {
-        console.log(`Результат в первом сообщении: ${Duck.name}, ${Duck.color}, ${Duck.age} год`);
-        },
-    say: function() { console.log('Результат во втором сообщении: кря кря');
-    }
-}
-
-
-Duck.toStr();
-Duck.say();
-
-</script>
-
 
 </body>
 </html>
