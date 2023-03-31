@@ -24,6 +24,24 @@ for (key in myArray) {
 </script>
 
 
+<script type="application/javascript">
+
+myArray1 = [1, 5, 12, 4, 3]
+myArray2 = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+myArray3 = [3, 10, 17]
+
+function avg(x) {
+    let sum  = x.reduce((total, value) => total + value, 0)
+    let avg = sum/x.length
+    return console.log(`${avg}`);
+}
+
+avg(myArray1);
+avg(myArray2);
+avg(myArray3);
+
+</script>
+
 
 </body>
 </html>
